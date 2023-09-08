@@ -14,7 +14,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  padding: 1rem;
+  padding: 1rem 1.5rem;
   width: fit-content;
   height: auto;
   min-height: 100vh;
@@ -42,6 +42,7 @@ body {
 
 .s-dp-name {
   font-size: 2rem;
+  color: #222;
 }
 .dp {
   border-radius: 100%;
@@ -50,11 +51,26 @@ body {
 }
 
 .s-content {
-  font-size: 1.1rem;
+  font-size: 1.2rem;
+  color: #222;
 }
 .stack {
   border-bottom: 1px solid #eee;
-  height: fit-content;
-  width: 80%;
   margin: auto;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+.github-link {
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  background: rgb(37, 192, 37);
+  color: #fff;
+  text-align: center;
+  border-radius: 30px;
+  margin-top: 0.5rem;
 }
